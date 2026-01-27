@@ -146,6 +146,13 @@ main{
 }
 #mbo1, #mbo2, #mbo3 {
     text-align: center;
+    border: #db3535;
+}
+.box1{
+    border: none ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 1px 1px #d7d6d6;
+  
 }
 
 #mbo1 h2 {
@@ -209,7 +216,7 @@ main{
     color: #7D7D7D;
     
 }
-.right-side button{
+.btn1{
     margin-top: 30px;
     background-color: #4CAF4F;
     height: 40px;
@@ -222,29 +229,139 @@ main{
 }
 .achivement{
     width: 100%;
-   
     padding: 50px 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color:#F5F7FA ;
 }
 .lsrow h3{
-    font-size: 25px;
+    width: 60%;
+    font-size: 35px;
     color: #4D4D4D;
+    line-height: 1.2;
     
+}
+.lsrow h3 span{
+    color: #4CAF4F;
+}
+.lsrow p{
+    font-size: 10px;
+    line-height: 1.3;
+    padding-top: 10px;
 }
 .a-rsrow{
     width: 40%;
     padding-left: 0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-   grid-gap-left: 20px;
+    grid-gap-left: 20px;
+    gap: 20px;
 }
 .member{
    width: 20%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    color: red;
+    font-size: small;
+    color: #4D4D4D;
     grid-gap:10px
 }
+.member span{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4D4D4D;
+}
+.moblogin{
+    padding: 10px 200px 20px 200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+}
+#left{
+  width:40%;
+  display: flex;
+  padding-top: 48px;
+ flex-direction: column;
+ gap: 30px;
+}
+#right{
+    width: 60%;
+    padding-top: 9%;
+}
+#right h2{
+    font-size: 37px;
+    color: #4D4D4D;
+   
+}
+#right p{
+    font-size: 14px;
+    color: #4D4D4D;
+    line-height: 1.3;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+#left img{
+    width: 95%;
+    height: 100%;
+}
+.customers{
+    padding: 30px 200px 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8%;
+    background-color: #F5F7FA;
+}
+#cusleft{
+    width: 30%;
 
+}
+#cusleft img{
+    width: 95%;
+    height: 100%;
+}
+#cusright{
+    width: 70%;
+}
+#cusright  p{
+    padding-top: 3%;
+    line-height: 1.7;
+    font-size: 16px;
+    color: #4D4D4D;
+}
+#cusright2nd {
+    display: flex;
+    flex-direction: column;
+}
+#cusright2nd h3{
+    color: #4CAF4F;
+    padding: 20px 0px 1px 0px;
+    display: flex;
+    display: inline-block;
+    
+    
+}
+#cusright2nd p{
+    padding: 1px 0px 15px 0px;
+
+}
+.logowithmeetcous {
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+  
+}
+.logowithmeetcous img{
+    height: 50%;
+
+}
+#meetcus{
+    width: 80%;
+}
+
+.community{
+    padding: 50px 200px;
+}
+.lastimg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
