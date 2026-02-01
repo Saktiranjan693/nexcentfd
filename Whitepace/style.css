@@ -86,7 +86,7 @@ main{
     background-color: #043873;
      padding: 80px 220px 10px 220px ;
     width: 100%;
-    height: 600px;
+    height: 550px;
      display: flex;
      justify-content: space-between;
      gap: 10px;
@@ -141,6 +141,251 @@ main{
     height: 400px;
     width: 850px;
     background-color: #C4DEFD;
-size: 60%;
+/* size: 60%; */
     border-radius: 15px;
+}
+.workmanage{
+    padding: 90px 220px 10px 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+   
+}
+
+#headline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+#textblock{
+    height: 200px;
+    width: 500px;
+    padding:50px 20px 0px 0px  ;
+}
+#textblock h1{
+    width: 300px;
+    font-size: 55px;
+    font-weight: 700;
+    color: #212529;
+    line-height: 1.2;
+
+}
+#textblock p{
+    width: 550px;
+    font-size: 14px;
+    columns: #212529;
+    line-height: 1.6;
+    padding-top: 20px;
+   
+
+
+}
+
+#textblockbtn{
+    height: 40px;
+    width: 200px;
+      background-color: #4F9CF9;
+    /* height: 45px;
+    width: 200px; */
+    border-radius: 10px;
+    /* padding: 16px 24px; */
+     font-weight: 300;
+     font-size: 16px;
+     margin-top: 30px;
+  
+    
+}
+.image-cointainer{
+    height: 400px;
+    width: 500px;
+    background-color: #C4DEFD;
+   
+}
+.wtimg img{
+    height:450px ;
+    width: 550px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap:0px;
+
+}
+#textarea{
+    width: 100%;
+    height: 200px;
+    /* background-color: red; */
+   margin-left: 90px;
+  margin-top: 110px;
+  
+}
+#textarea h1{
+    font-size: 50px;
+    
+}
+#textarea p{
+    width: 550px;
+    padding-top: 25px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+#contentbtn{
+         background-color: #4F9CF9;
+    height: 45px;
+    width: 130px;
+    border-radius: 5px;
+    /* padding: 16px 24px; */
+     font-weight: 600;
+     font-size: 16px;
+     /* text-align: left; */
+     margin-top: 45px;
+}
+.needs{
+    margin-top: 100px;
+    background-color: #043873;
+     padding: 100px 220px 10px 220px ;
+    width: 100%;
+    height: 550px;
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
+}
+#heading div{
+ padding: 80px 0px 0px 0px;
+ /* size: 40%; */
+
+}
+#heading div h1{
+     color: white;
+   font-style: bold;
+    font-size: 46px;
+    line-height: 1.2;
+    /* letter-spacing: -2%; */
+    font-weight: 700;
+}
+#heading p{
+      color:#FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-right: 10px;
+    padding-top: 25px;
+     width: 480px;
+    height: 60px;
+    
+}
+.btn-lets-go{
+    background-color: #4F9CF9;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    /* padding: 16px 24px; */
+     font-weight: 300;
+     font-size: 16px;
+     color: white;
+    
+     
+}
+#btn2{
+     margin-top: -20px;
+}
+#img-box{
+      height: 350px;
+    width: 500px;
+    /* margin-left: 0px; */
+    background-color: #C4DEFD;
+/* size: 60%; */
+    border-radius: 15px;
+}
+.Customise{
+    padding: 60px 220px 50px 220px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    height: 500px;
+    width: 100%;
+   
+
+}
+#left-box{
+    height: 350px;
+    width: 40%;
+    background-color: #C4DEFD;
+    
+   
+}
+#right{
+    width:50%;
+    padding: auto;
+    padding-top: 50px;
+}
+#right h1{
+      font-size: 50px;
+}
+#right p{
+       width: 550px;
+    padding-top: 25px;
+    font-size: 14px;
+    line-height: 1.6;
+
+}
+#btn3{
+        background-color: #4F9CF9;
+    height: 45px;
+    width: 130px;
+    border-radius: 5px;
+    /* padding: 16px 24px; */
+     font-weight: 600;
+     font-size: 16px;
+     /* text-align: left; */
+     margin-top: 45px;
+     border: none;
+     color: white;
+}
+.Pricing{
+    padding: 50px 220px 30px 220px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap: 40px;
+    
+
+}
+#tophead{
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+  align-items: center;
+}
+#tophead h1{
+  font-size: 50px;
+} 
+#tophead p{
+     max-width: 900px;
+     text-align: center;
+
+   
+}
+#x{
+    height: 500px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#x div{
+    height: 430px;
+    width: 32%;
+    padding: 40px 44px ;
+    background-color: green;
+    border: 1px solid #FFE492;
+    cursor: pointer;
+
+}
+#x div:hover{
+    background-color: #043873;
+    height:500px ;
+    width: 32%;
 }
