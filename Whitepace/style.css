@@ -367,25 +367,139 @@ main{
 
    
 }
-#x{
+#pricelist{
     height: 500px;
     width: 100%;
-    background-color: red;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#x div{
+.priceboard{
+    /* display: flex;
+    flex-direction: column; */
     height: 430px;
     width: 32%;
     padding: 40px 44px ;
-    background-color: green;
-    border: 1px solid #FFE492;
+    border: 3px solid #FFE492;
     cursor: pointer;
+    transition: all 2s linear 1s;
+     
 
 }
-#x div:hover{
+ .priceboard:hover{
     background-color: #043873;
     height:500px ;
     width: 32%;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.159); 
+    color: white; 
+    border: 3px solid green;
+}
+.priceboard .pricetexthead h3{
+     transition: all 2s linear 1s;
+
+}
+.priceboard:hover .pricetexthead h3{
+    color: #FFE492;
+}
+.pricetexthead{
+    margin-bottom: 25px;
+
+}
+.pricetexthead h6{
+    font-size: 16px;
+    
+}
+.pricetexthead h3{
+font-size:25px;
+    margin-top: 10px 
+}
+.pricetexthead p{
+    font-size: 13px;
+     margin-top: 10px ;
+}
+
+.bulletpoint{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 0px 20px 0px;
+}
+.tikimg{
+    display: flex;
+    gap: 15px;
+    /* justify-content: space-between; */
+    
+}
+.tikimg img{
+height: 2%;
+width: 7%;
+}
+.tikimg p{
+   /* padding-left:-200px; */
+   font-size: 12px;
+   color: #212529;
+    transition: all 2s linear 1s;
+}
+.priceboard:hover .bulletpoint .tikimg p{
+    color: #FFFFFF;
+}
+#btn4{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border:1px solid #FFE492;
+    transition: all 2s linear 1s;
+}
+.priceboard:hover .pricebtn4 #btn4{
+    background-color: #4F9CF9;
+    border: none;
+    cursor: pointer;
+
+}
+
+#yourwork{
+    padding: 50px 220px 20px 220px;
+    background-color: #043873;
+    height: 300px;
+}
+#work{
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+   
+
+}
+#yourworkhead{
+     display: flex;
+     flex-direction: column; 
+     justify-content: center;
+}
+#yourworkhead h1{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#yourworkhead p{
+    color: #FFFFFF;
+   text-align: center;
+  line-height: 1.6;
+
+}
+#workbtn{
+    position: absolute;
+    bottom: 0px;
+    left: 49%;
+    
+    /* left: -60px; */
+}
+
+#x img{
+    height: 400px;
+    width: 500px;
 }
