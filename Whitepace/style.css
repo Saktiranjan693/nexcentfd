@@ -499,7 +499,112 @@ width: 7%;
     /* left: -60px; */
 }
 
-#x img{
-    height: 400px;
+#yourdata{
+    padding: 70px 220px 40px 220px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+}
+#yourdatahead{
+    padding-top: 30px;
+}
+#yourdatah1 h1{
+    font-size: 50px;
+    /* text-align: center; */
+
+}
+#yourdatah1 p{
+    font-size: 13px;
+    width: 550px;
+    color: #212529;
+    line-height: 1.7;
+    text-align: left;
+    padding-top: 10px;
+}
+#yourdatabtn{
+    margin-top: -10px;
+}
+
+#element img{
+    height: 300px;
     width: 500px;
+}
+#sponsors{
+    padding: 50px 220px 60px 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+
+}
+#sponsorshead h1{
+    font-size: 50px;
+    /* align-items: center; */
+    text-align: center;
+}
+#Apple img{
+    /* height: 0%; */
+    width: 18%;
+    /* height: 100%; */
+    margin-top: -10px;
+}
+#microsoft img{
+ 
+  width: 70%;
+  /* height: 100%; */
+  margin-left: -80px;
+}
+#slack img{
+ width: 70%;
+ /* height: 100%; */
+ margin-left: -10px;
+}
+#Google img{
+  width: 70%;
+  /* height: 100%; */
+
+   margin-left: 20px;
+  
+}
+
+#sponsorsimg{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 2%;
+
+}
+
+#apps{
+    padding: 30px 220px 50px 220px;
+    background-color: #043873;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 5%; */
+    gap: 50px;
+
+}
+#apps #appimg{
+   
+  
+}
+#appimg img{
+    height: 350px;
+    width: 500px;
+}
+#apps #apphead{
+  
+         
+}
+#apphead h1{
+    font-size: 50px;
+    color: #FFFFFF;
+
+}
+#apphead p{
+    padding-top: 15px;
+ font-size: 13px;
+ color: #FFFFFF;
+ line-height: 1.6;
+}
+#apphead button{
+   margin-top: 50px;
 }
