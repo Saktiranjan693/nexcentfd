@@ -608,3 +608,112 @@ width: 7%;
 #apphead button{
    margin-top: 50px;
 }
+#Testimonial{
+    padding: 50px 220px;
+
+}
+#Testimonial h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 40px 0px 50px 0px;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.contenthead{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   background-color: #4F9CF9;
+    color:white;
+   align-items: center;
+   height: 360px;
+   width: 360px;
+   box-shadow: 10px 5px rgba(0, 0, 0, 0.06);
+}
+.quto{
+    width: 80%;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 55%;
+    
+    
+}
+.quto p{
+    margin-bottom: 30px;
+    line-height: 1.6;
+
+}
+ .quto img{
+    height: 30px;
+    width: 50px;
+    margin-top: 20px;
+   
+}
+
+.namebox{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+.namebox h4{
+    color: black;
+}
+.namebox img{
+    height: 70px;
+    width: 70px;
+}
+
+
+#contenthead{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+   align-items: center;
+   height: 360px;
+   width: 360px;
+   box-shadow: 10px 5px rgba(0, 0, 0, 0.06);
+}
+#quto{
+    width: 90%;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+    height: 55%;
+    
+    
+    
+}
+#quto p{
+    margin-bottom: 30px;
+    line-height: 1.6;
+
+}
+ #quto img{
+    height: 30px;
+    width: 50px;
+    margin-top: 20px;
+   
+}
+
+#namebox{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+#namebox img{
+    height: 70px;
+    width: 70px;
+}
