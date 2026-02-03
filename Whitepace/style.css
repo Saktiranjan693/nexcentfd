@@ -390,6 +390,7 @@ main{
  .priceboard:hover{
     background-color: #043873;
     height:500px ;
+                                         /* transform:scale(1.4); we have to use transform: property; */
     width: 32%;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.159); 
     color: white; 
@@ -635,7 +636,7 @@ width: 7%;
    box-shadow: 10px 5px rgba(0, 0, 0, 0.06);
 }
 .quto{
-    width: 80%;
+    width: 90%;
     border-bottom: 2px solid white;
     display: flex;
     flex-direction: column;
