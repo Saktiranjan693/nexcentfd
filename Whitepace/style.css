@@ -783,4 +783,35 @@ width: 7%;
 #info{
     padding: 20px 220px;
     background-color: #043873;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
 }
+#footerlogo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#footerlogo  img{
+height: 50px;
+width: 150px;
+}
+#footerlogo p{
+    margin-top: -30px;
+}
+.texthead{
+    
+}
+.texthead  h3{
+   color:aquamarine;
+   padding-bottom: 30px;
+}
+
+
+.texthead ul li{
+    color: white;
+    text-decoration: none; 
+    list-style: none;  
+
+}
+
+
