@@ -718,3 +718,69 @@ width: 7%;
     height: 70px;
     width: 70px;
 }
+
+#freetrail{
+    padding: 50px 220px 0px 220px;
+    background-color: #043873;
+    /* position: relative; */
+}
+#endheading{
+    margin-top: 20px;
+    margin-left: 350px;
+    height: 400px;
+    width: 400px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* position: absolute; */
+    color: white;
+  
+}
+
+ #headline2 h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+
+ }
+  #headline2 p {
+    /* text-align: center; */
+    /* width: 20x; */
+    /* height: 30px; */
+    padding-top: 20px;
+    text-align: center;
+    /* width: 150px; */
+
+ }
+
+ #buton{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    gap: 30px;
+ }
+ #buton1 p{
+
+    margin-top: 10px;
+ }
+
+ #browsericon{
+    width: 150px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 130px;
+    grid-gap: 10px;
+   
+
+ }
+ #browsericon img{
+    height: 90%;
+    width: 60%;
+    gap: 30px;
+ }
+#info{
+    padding: 20px 220px;
+    background-color: #043873;
+}
